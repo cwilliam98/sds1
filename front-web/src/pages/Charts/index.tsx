@@ -31,7 +31,7 @@ const Charts = () => {
   );
   const [genderData, setGenderData] = useState<PieChartData>(initialPieData);
 
-  const BASE_URL = 'http://localhost:8080';
+  const BASE_URL = 'https://sds1-cwilliam.herokuapp.com';
 
   useEffect(() => {
     async function getData() {
@@ -65,7 +65,7 @@ const Charts = () => {
             <Chart
               options={barOptions}
               type="bar"
-              width="800"
+              width="600"
               height="450"
               series={[
                 {

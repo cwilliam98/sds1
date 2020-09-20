@@ -12,8 +12,8 @@ export const pieOptions = {
   },
   dataLabels: {
     enabled: true,
-    offsetX: '100px',
-    offsetY: '100px',
+    offsetX: '80px',
+    offsetY: '80px',
     style: {
       colors: ['#a8dadc', '#ed7947', '#00D4FF', '#ffd6a5'],
       fontSize: '20px',
@@ -73,7 +73,7 @@ export const barOptions = {
         maxWidth: 360,
         style: {
           colors: '#00D4FF',
-          fontSize: '18px',
+          fontSize: '15px',
           fontFamily: 'Play, sans-serif',
           fontWeight: 700,
         },
